@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20220410220020_CreatedCoursesTable.cs" />
+    <Compile Remove="Migrations\20220410220020_CreatedCoursesTable.Designer.cs" />
+    <Compile Remove="Migrations\20220410222536_CreatedCoursesFeatures.cs" />
+    <Compile Remove="Migrations\20220410222536_CreatedCoursesFeatures.Designer.cs" />
+    <Compile Remove="Migrations\20220411053743_CreatedCoursesTableChange.cs" />
+    <Compile Remove="Migrations\20220411053743_CreatedCoursesTableChange.Designer.cs" />
+    <Compile Remove="Migrations\20220411054319_ChangeCourseTable.cs" />
+    <Compile Remove="Migrations\20220411054319_ChangeCourseTable.Designer.cs" />
+    <Compile Remove="Migrations\20220411054850_ChangeCourseTablenow.cs" />
+    <Compile Remove="Migrations\20220411054850_ChangeCourseTablenow.Designer.cs" />
+    <Compile Remove="Migrations\20220411055511_ChangeCourseTablenowa.cs" />
+    <Compile Remove="Migrations\20220411055511_ChangeCourseTablenowa.Designer.cs" />
+    <Compile Remove="Migrations\20220411055654_ChangeCourseTablenowad.cs" />
+    <Compile Remove="Migrations\20220411055654_ChangeCourseTablenowad.Designer.cs" />
+    <Compile Remove="Migrations\20220411060931_Addednewmigration.cs" />
+    <Compile Remove="Migrations\20220411060931_Addednewmigration.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.23">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.23"> 
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>
